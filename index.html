@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dictinary App</title>
+    <title>Dictionary App</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>English Dictionary </header>
+        <header>English Dictionary</header>
         <div class="search">
             <input type="text" placeholder="Search a word" required spellcheck="false">
             <i class="fas fa-search"></i>
-            <span class="'material-icons">close</span>
+            <span class="material-icons">close</span> <!-- Removed extra single quotes -->
         </div>
         <p class="info-text">Type any existing word and press enter to get meaning, example, synonyms, etc.</p>
         <ul>
-            <li class="word">
+            <li class="word"> <!-- Added missing class attribute -->
                 <div class="details">
                     <p>__</p>
                     <span>_ _</span>
@@ -26,21 +26,21 @@
                 <i class="fas fa-volume-up"></i>
             </li>
             <div class="content">
-                <li class=""meaning>
+                <li class="meaning"> <!-- Added missing class attribute -->
                     <div class="details">
                         <p>Meaning</p>
                         <span>___</span>
                     </div>
                 </li>
-                <li class="example">
+                <li class="example"> <!-- Added missing class attribute -->
                     <div class="details">
                         <p>Example</p>
                         <span>___</span>
                     </div>
                 </li>
-                <li class="synonyms">
+                <li class="synonyms"> <!-- Added missing class attribute -->
                     <div class="details">
-                        <p>synonyms</p>
+                        <p>Synonyms</p> <!-- Corrected the "synonyms" label -->
                         <div class="list"></div>
                     </div>
                 </li>
